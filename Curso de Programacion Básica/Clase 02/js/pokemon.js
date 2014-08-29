@@ -13,10 +13,13 @@ var imgPokemonVacio = "imagenes/quienesesepokemon.png";
 function inicio()
 {
 	boton = document.getElementById("btnCapturar");
+	console.log(boton);
+	console.log(btnCapturar);
 	boton.addEventListener("click", fr_capturar);
 	//imgPokemon.onload = mostrar;	
 }
 
+// Cometario
 function aleatorio(min, max)
 {
 	return Math.floor(Math.random()*(max - min + 1) + min)
